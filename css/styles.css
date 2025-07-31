@@ -1,9 +1,49 @@
-h1 {
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  color: red;
+:root {
+  --primary-color: #1d3557;
+  --secondary-color: #66bfbf;
+  --highlight-color: #ff44bd;
+  --heading-font-family: "Poppins", sans-serif;
+  --default-font-family: "Open Sans", sans-serif;
 }
 
-p {
-  font-family: "Poppins", sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  font-family: var(--heading-font-family);
+}
+
+h1 {
+  font-size: 80px;
+}
+
+body {
+  font-family: var(--default-font-family);
+}
+
+.hero {
+  background-color: var(--secondary-color);
+  text-align: center;
+  padding: 160px 0;
+}
+
+.hero p {
+  font-size: 36px;
+}
+
+.btn {
+  background-color: var(--highlight-color);
+  padding: 12px;
+  border-radius: 12px;
+  color: white;
+  font-family: var(--heading-font-family);
+  font-size: 14px;
+}
+
+.btn:hover {
+  background-color: var(--primary-color);
+  color: white;
 }
