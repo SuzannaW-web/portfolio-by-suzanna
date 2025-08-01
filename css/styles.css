@@ -50,7 +50,7 @@ body {
 }
 
 .btn-outline {
-  background-color: none;
+  background-color: transparent;
   border: 1px solid var(--primary-color);
   border-radius: 20px;
 
@@ -61,6 +61,8 @@ body {
 
 .btn-outline:hover {
   background-color: var(--secondary-color);
+  color: black;
+  border-color: var(--secondary-color);
 }
 
 @media (max-width: 768px) {
