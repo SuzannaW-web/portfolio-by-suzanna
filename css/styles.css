@@ -5,6 +5,29 @@
   --heading-font-family: "Poppins", sans-serif;
   --default-font-family: "Open Sans", sans-serif;
 }
+nav {
+  background-color: var(--primary-color);
+}
+
+nav a,
+nav li {
+  display: inline;
+  list-style: none;
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav h1 {
+  font-size: 20px;
+  padding: 5px;
+  color: white;
+}
 
 h1,
 h2,
@@ -45,11 +68,12 @@ body {
 
 .btn-primary {
   background-color: var(--highlight-color);
-  padding: 10px 25px;
+  padding: 5px 15px;
   border-radius: 20px;
   color: white;
   font-family: var(--heading-font-family);
-  font-size: 18px;
+  font-size: 14px;
+  margin-top: 5px;
 }
 
 .btn-primary:hover {
@@ -79,8 +103,18 @@ body {
 }
 
 @media (max-width: 768px) {
+  nav ul {
+    text-align: center;
+  }
+
+  .contact-btn {
+    order: 1;
+    margin-top: 10px;
+  }
+
   .hero {
     text-align: center;
+    padding: 20px;
   }
 
   h1 {
