@@ -59,7 +59,7 @@ body {
 }
 
 .content-container {
-  padding: 120px 20px;
+  padding: 60px 20px;
 }
 
 .content-container h1 {
@@ -82,7 +82,7 @@ body {
 }
 
 .btn-outline {
-  background-color: transparent;
+  background-color: white;
   border: 1px solid var(--primary-color);
   border-radius: 20px;
 
@@ -95,6 +95,14 @@ body {
   background-color: var(--secondary-color);
   color: black;
   border-color: var(--secondary-color);
+}
+
+.project-buttons {
+  display: flex;
+  justify-content: center;
+}
+.card-body {
+  background-color: #66bfbf17;
 }
 
 .profile-image {
@@ -120,7 +128,7 @@ body {
 
 footer {
   background-color: var(--secondary-color);
-  padding: 60px 20px;
+  padding: 20px;
   text-align: center;
   width: 100%;
 }
